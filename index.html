@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Миател 5 лет</title>
+  <meta name="description" content="Компании Миател исполнилось 5 лет">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+  <meta property="og:type" content="website"> 
+  <meta property="og:url" content="http://5year.miatel.ru/">
+  <meta property="og:site_name" content="Миател 5 лет">
+  <meta property="og:image" content="img/screenshot_1024.jpg">
+  <meta property="og:title" content="Миател 5 лет">
+  <meta property="og:description" content="Компании Миател исполнилось 5 лет">
+
+  <!-- <link rel="preload" href="fonts/5979b8f84511fe49c88c6f0b.woff" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/5979b90d9d3bda07d0b94a59.woff" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/5a4e12d144b449006e3569a0.woff" as="font" type="font/woff2" crossorigin> -->
+
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.scrollorama.js"></script>
+</head>
+<body class="">
+  <header class="header slide">
+    <img src="img/satellite.png" alt="" class="header__satellite">
+    <img src="img/satellite-mini.png" alt="" class="header__satellite-mini">
+    <img src="img/five.png" alt="" class="header__five-img">
+    <h1 class="header__title">Миател за <span class="header__five">5</span> <span class="header__text">лет</span></h1>
+    <p class="header__description">Миателу пять лет: удивительные цифры и интересные факты</p>
+  </header>
+  
+  <script>
+  $(document).ready(function() {
+      var scrollorama = $.scrollorama({
+          blocks:'.slide'
+      });
+    
+    scrollorama.animate('.header__satellite',
+                       {duration:200, property:'scale', end: 2});
+    
+    scrollorama.animate('.header__satellite-mini',
+                        {duration:600, property:'left', end: -300},
+                       {duration:600, property:'top', end: 900})
+  });
+    
+  
+    
+  </script>
+</body>
+</html>
