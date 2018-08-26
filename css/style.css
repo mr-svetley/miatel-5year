@@ -20,10 +20,10 @@
 }
 
 body {
-    min-width: 1024px;
+  min-width: 1024px;
   max-width: 1024px;
-    height: 3000px;
-    margin: 0 auto;
+  height: 3000px;
+  margin: 0 auto;
 }
 
 /*
@@ -31,14 +31,19 @@ body {
   background-color: rgba(0,0,0, 0.1);
 }
 */
-
-.hidden {
-    visibility: hidden;
+/* theme ========================================================================= */
+.theme {
+  line-height: 1.5;
+  font-size: 14px;
+  font-family: custom_4305;
 }
 
-.header {
-  
+.theme__title {
+  color: #feca00;
+  font-weight: bold;
 }
+
+/* header ========================================================================= */
 
 .header__title {
   line-height: 210px;
@@ -94,4 +99,35 @@ body {
   top: 282px;
   left: 277px;
   width: 445px;
+}
+
+/* calls ========================================================================= */
+
+.calls__hand {
+  width: 700px;
+  position: absolute;
+  z-index: -1;
+  top: 400px;
+  left: -400px;
+}
+
+.theme__title {
+  
+}
+
+.calls__value {
+font-size: 125px;
+font-weight: 700;
+  margin-top: 0;
+padding-top: 590px;
+padding-left: 440px;
+margin-bottom: 0;
+  line-height: 105px;
+}
+
+.calls__text {
+  padding-left: 500px;
+font-size: 30px;
+margin: 0;
+width: 315px;
 }
